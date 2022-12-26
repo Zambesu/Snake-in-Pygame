@@ -121,7 +121,7 @@ def main():
     snake = snake()
     food = food()
 
-    myfont = pygame.font.SysFont("karma", 24, bold = True)
+    myfont = pygame.font.Font('font/Karma.ttf', 24)
 
     score = 0
     highscore = 0
